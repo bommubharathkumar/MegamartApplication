@@ -12,6 +12,7 @@
 	<artifactId>MegamartApplication</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>MegamartApplication</name>
+	 <packaging>war</packaging> 
 	<description>MegamartApplication</description>
 <properties>
 		<java.version>1.8</java.version>
