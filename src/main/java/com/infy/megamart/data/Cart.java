@@ -1,19 +1,19 @@
 package com.infy.megamart.data;
 
-import javax.persistence.Entity;
+/*import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.Table;
 import javax.validation.constraints.NotBlank;
 
 @Entity
-@Table(name = "cart")
+@Table(name = "cart")*/
 public class Cart {
 
-	private @Id String  cartId;
-    private @NotBlank String productName;
-    private @NotBlank String sellerName;
-    private @NotBlank int quantity;
-    private @NotBlank double cartOfferPrice;
+	private  String  cartId;
+    private  String productName;
+    private  String sellerName;
+    private  int quantity;
+    private  double cartOfferPrice;
     
 	public String getCartId() {
 		return cartId;

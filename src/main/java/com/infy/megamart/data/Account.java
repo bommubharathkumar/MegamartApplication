@@ -1,20 +1,20 @@
 package com.infy.megamart.data;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.Id;
-import javax.persistence.Table;
-import javax.validation.constraints.NotBlank;
-
-@Entity
-@Table(name = "account")
+//import javax.persistence.Entity;
+//import javax.persistence.GeneratedValue;
+//import javax.persistence.Id;
+//import javax.persistence.Table;
+//import javax.validation.constraints.NotBlank;
+//
+//@Entity
+//@Table(name = "account")
 public class Account {
 	
 
-		private @Id String  username;
-	    private @NotBlank String password;
-	    private @NotBlank String confirmPassword;
-	    private @NotBlank String email;
+		private  String  username;
+	    private  String password;
+	    private  String confirmPassword;
+	    private  String email;
 
 	    
 	    

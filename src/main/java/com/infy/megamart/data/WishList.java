@@ -1,16 +1,13 @@
 package com.infy.megamart.data;
 
-import javax.persistence.Entity;
-import javax.persistence.Id;
-import javax.persistence.Table;
+
 import javax.validation.constraints.NotBlank;
 
-@Entity
-@Table(name = "wishlist")
+
 public class WishList {
 
 	
-	private @Id String  wishId;
+	private  String  wishId;
     private @NotBlank String displayName;
     private @NotBlank String shortDiscreption;
     private @NotBlank String category;

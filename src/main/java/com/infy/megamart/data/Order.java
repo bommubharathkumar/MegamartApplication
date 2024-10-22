@@ -2,15 +2,11 @@ package com.infy.megamart.data;
 
 import java.sql.Date;
 
-import javax.persistence.Entity;
-import javax.persistence.Id;
-import javax.persistence.Table;
+
 import javax.validation.constraints.NotBlank;
 
-@Entity
-@Table(name = "order")
 public class Order {
-	private @Id String  orderId;
+	private  String  orderId;
     private @NotBlank String displayName;
     private @NotBlank String category;
     private @NotBlank String sellerName;

@@ -1,15 +1,12 @@
 package com.infy.megamart.data;
 
-import javax.persistence.Entity;
-import javax.persistence.Id;
-import javax.persistence.Table;
+
 import javax.validation.constraints.NotBlank;
 
-@Entity
-@Table(name = "product")
+
 public class Product {
 	
-	private @Id String  productId;
+	private  String  productId;
     private @NotBlank String productName;
     private @NotBlank String description;
     private @NotBlank double price;
